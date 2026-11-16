@@ -72,3 +72,16 @@ export const StarIcon = ({ filled, ...p }: IconProps & { filled?: boolean }) => 
     <path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3Z" />
   </Base>
 );
+
+export const SunIcon = (p: IconProps) => (
+  <Base {...p}>
+    <circle cx="12" cy="12" r="4" />
+    <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" />
+  </Base>
+);
+
+export const MoonIcon = (p: IconProps) => (
+  <Base {...p}>
+    <path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z" />
+  </Base>
+);

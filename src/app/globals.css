@@ -23,3 +23,76 @@
     @apply ring-offset-0;
   }
 }
+
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background-color: #020617;
+  color: #f1f5f9;
+}
+
+html.dark .bg-white {
+  background-color: #0f172a;
+}
+
+html.dark .theme-switch-thumb-dark {
+  background-color: #0f172a;
+  color: #fff;
+}
+
+html.dark .bg-white\/90 {
+  background-color: rgb(15 23 42 / 90%);
+}
+
+html.dark .bg-slate-50 {
+  background-color: #020617;
+}
+
+html.dark .bg-slate-100 {
+  background-color: #1e293b;
+}
+
+html.dark .bg-slate-200 {
+  background-color: #334155;
+}
+
+html.dark .text-slate-900 {
+  color: #f1f5f9;
+}
+
+html.dark .text-slate-800 {
+  color: #e2e8f0;
+}
+
+html.dark .text-slate-700,
+html.dark .text-slate-600 {
+  color: #cbd5e1;
+}
+
+html.dark .text-slate-500,
+html.dark .text-slate-400 {
+  color: #94a3b8;
+}
+
+html.dark .border-slate-200,
+html.dark .divide-slate-200 > :not(:first-child) {
+  border-color: #334155;
+}
+
+html.dark .border-slate-300 {
+  border-color: #475569;
+}
+
+html.dark .hover\:bg-slate-50:hover {
+  background-color: #1e293b;
+}
+
+html.dark .hover\:bg-slate-100:hover {
+  background-color: #334155;
+}
+
+html.dark .placeholder\:text-slate-500::placeholder {
+  color: #94a3b8;
+}
